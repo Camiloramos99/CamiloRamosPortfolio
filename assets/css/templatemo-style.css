@@ -518,8 +518,8 @@ figure.snip1321 * {
 }
 figure.snip1321 figcaption {
   top: 50%;
-  left: 20px;
-  right: 20px;
+  left: 40px;
+  right: 40px;
   position: absolute;
   opacity: 0;
   z-index: 1;
@@ -529,11 +529,36 @@ figure.snip1321 h4 {
   margin-bottom: 5px;
   color: #232323;
 }
-figure.snip1321 span {
+
+.tag {
+    color:  black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-right: 8px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  #tag-react {
+    background-color: rgba(97, 218, 251, 0.7); 
+  }
+  
+  #tag-tailwind {
+    background-color: rgba(56, 178, 172, 0.7); 
+  }
+  
+  #tag-javascript {
+    background-color: rgba(247, 222, 30, 0.8);      
+}
+
+.project-description {
     font-size: 14px;
     font-style: italic;
+    text-align: justify;
     display: block;
     color: #7a7a7a;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 figure.snip1321 i {
   position: relative!important;
