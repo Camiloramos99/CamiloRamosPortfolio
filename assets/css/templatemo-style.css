@@ -10,8 +10,9 @@ https://templatemo.com/tm-531-reflux
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 :root {
     --primary-color: #00a376; 
-    --text-color: #fff;  
     --secondary-color: #fff;
+    --text-color: #fff;  
+    --secondary-text-color: ;
 
   }
   
@@ -150,6 +151,7 @@ html {
 }
 
 .menu .author-content {
+    display: grid;
     margin: 40px 0px 60px 0px;
 }
 
@@ -162,6 +164,26 @@ html {
     font-style: italic;
     color: var(--text-color);
 }
+
+.cv-button {
+    justify-self: center;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: var(--text-color);
+    padding: 10px 20px; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+
+  .cv-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+  
 
 .menu .social-network {
     margin-top: 60px;
@@ -215,7 +237,6 @@ html {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
 }
 
 .menu {
@@ -560,6 +581,20 @@ figure.snip1321 h4 {
     margin-top: 15px;
     margin-bottom: 8px;
 }
+
+.project-description a {
+    color: var(--primary-color); /* Usa el color primario para mantener la coherencia */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    font-weight: bold; /* Añade un poco de peso al texto */
+    transition: color 0.3s ease; /* Suaviza la transición de color */
+  }
+  
+  .project-description a:hover {
+    color: var(--secondary-color); /* Cambia el color al pasar el ratón */
+    text-decoration: underline; /* Añade el subrayado al pasar el ratón */
+  }
+  
+
 figure.snip1321 i {
   position: relative!important;
   font-size: 18px;
@@ -604,6 +639,7 @@ figure.snip1321.hover figcaption {
   opacity: 1;
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
+  background-color: rgba(255, 255, 255, 1);
 }
 figure.snip1321:hover:after,
 figure.snip1321.hover:after {
