@@ -546,7 +546,7 @@ figure.snip1321 figcaption {
   z-index: 1;
 }
 figure.snip1321 h4 {
-    margin-top: 15px;
+  margin-top: 15px;
   margin-bottom: 5px;
   color: #232323;
 }
@@ -558,17 +558,17 @@ figure.snip1321 h4 {
     margin-right: 8px;
     display: inline-block;
     font-size: 12px;
-  }
+}
 
-  #tag-react {
+#tag-react {
     background-color: rgba(97, 218, 251, 0.7); 
-  }
+}
   
-  #tag-tailwind {
+#tag-tailwind {
     background-color: rgba(56, 178, 172, 0.7); 
   }
   
-  #tag-javascript {
+#tag-javascript {
     background-color: rgba(247, 222, 30, 0.8);      
 }
 
@@ -583,16 +583,15 @@ figure.snip1321 h4 {
 }
 
 .project-description a {
-    color: var(--primary-color); /* Usa el color primario para mantener la coherencia */
-    text-decoration: none; /* Elimina el subrayado predeterminado */
-    font-weight: bold; /* Añade un poco de peso al texto */
-    transition: color 0.3s ease; /* Suaviza la transición de color */
-  }
+    color: var(--primary-color); 
+    text-decoration: none; 
+    font-weight: bold; 
+    transition: color 0.3s ease;
+}
   
-  .project-description a:hover {
-    color: var(--secondary-color); /* Cambia el color al pasar el ratón */
-    text-decoration: underline; /* Añade el subrayado al pasar el ratón */
-  }
+.project-description a:hover {
+    text-decoration: underline; 
+}
   
 
 figure.snip1321 i {
