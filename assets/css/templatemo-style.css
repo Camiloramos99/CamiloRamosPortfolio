@@ -443,9 +443,80 @@ button:hover {
     height: 70%;
   }
 
+ .col-md-3 {
+    padding-left: 0%;
+} 
+
 .service-item:hover {
     background-color: rgba(250, 250, 250, 1);
 }
+
+.custom-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+.custom-tooltip span {
+    visibility: hidden;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    bottom: 95%; 
+    right: 50%;
+    transform: translateX(50%);
+    opacity: 1;
+    transition: opacity 0.3s;
+    min-width: 40%;
+    max-width: 100%;
+}
+  
+.custom-tooltip:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+
+.custom-tooltip .tooltip-text-html {
+    background-color: #ffa600b5;
+
+}
+
+.custom-tooltip .tooltip-text-css {
+    background-color: #264ce4c6 ;
+}
+
+.custom-tooltip .tooltip-text-js {
+    background-color: #f7de1ed4;
+}
+
+.custom-tooltip .tooltip-text-react {
+    background-color: #61dafbd8;
+}
+
+.custom-tooltip .tooltip-text-tailwind {
+    background-color: #38b2acd0;
+}
+
+.custom-tooltip .tooltip-text-vite {
+    background-color: #646cffd0;
+}
+
+.custom-tooltip .tooltip-text-git {
+    background-color: #f04e32cd;
+}
+
+.custom-tooltip .tooltip-text-trello {
+    background-color: #0079bfcd;
+}
+
+
+
+
+
+
 /* My Work */
 
 section.my-work .section-heading {
