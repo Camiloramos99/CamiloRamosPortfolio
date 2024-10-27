@@ -664,12 +664,11 @@ figure.snip1321 h4 {
     text-decoration: underline; 
 }
   
-
-figure.snip1321 i {
+figure.snip1321 .github-button {
   position: relative!important;
-  font-size: 18px;
-  background-color: var(--primary-color);
-  width: 40px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.577);
+  width: 50%;
   height: 40px;
   display: inline-block;
   text-align: center;
@@ -715,7 +714,7 @@ figure.snip1321:hover:after,
 figure.snip1321.hover:after {
   -webkit-transform: rotateX(0);
   transform: rotateX(0);
-  opacity: 0.9;
+  opacity: 1;
 }
 
 
