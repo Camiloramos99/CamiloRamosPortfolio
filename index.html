@@ -431,23 +431,24 @@ https://templatemo.com/tm-531-reflux
             <h2>Contact Me</h2>
             <div class="line-dec"></div>
             <span
-              >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-              efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.</span
+              >Contact Me
+              If you have a project in mind or want to collaborate, I am always open to new
+              ideas and would love to hear from you. I will respond promptly your message.
+            </span
             >
           </div>
           <div class="row">
             <div class="right-content">
               <div class="container">
-                <form id="contact" action="" method="post">
-                  <div class="row">
+                <form id="form" method="post">
+                  <div class="row field ">
                     <div class="col-md-6">
                       <fieldset>
                         <input
                           name="name"
                           type="text"
                           class="form-control"
-                          id="name"
+                          id="from_name"
                           placeholder="Your name..."
                           required=""
                         />
@@ -456,10 +457,10 @@ https://templatemo.com/tm-531-reflux
                     <div class="col-md-6">
                       <fieldset>
                         <input
-                          name="email"
+                          name="email_id"
                           type="text"
                           class="form-control"
-                          id="email"
+                          id="email_id"
                           placeholder="Your email..."
                           required=""
                         />
@@ -491,7 +492,7 @@ https://templatemo.com/tm-531-reflux
                     </div>
                     <div class="col-md-12">
                       <fieldset>
-                        <button type="submit" id="form-submit" class="button">
+                        <button type="submit" id="form-submit-button" class="button">
                           Send Message
                         </button>
                       </fieldset>
@@ -564,5 +565,13 @@ https://templatemo.com/tm-531-reflux
         checkSection();
       });
     </script>
+
+    <!-- Scripts Email JS-->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('pqzk-deTKcnZTnRwf')
+  </script>
   </body>
 </html>

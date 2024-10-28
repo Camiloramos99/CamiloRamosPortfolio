@@ -724,7 +724,7 @@ section.contact-me {
     border-bottom: none;
 }
 
-#contact input {
+#form input {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
     border-radius: 0px;
@@ -737,12 +737,12 @@ section.contact-me {
     padding-left: 15px;
 }
 
-#contact input:focus {
+#form input:focus {
     outline: none;
     box-shadow: none;
 }
 
-#contact textarea {
+#form textarea {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
     border-radius: 0px;
@@ -756,12 +756,12 @@ section.contact-me {
     padding-left: 15px;
 }
 
-#contact textarea:focus {
+#form textarea:focus {
     outline: none;
     box-shadow: none;
 }
 
-#contact {
+#form {
     text-align: center;
 }
 
