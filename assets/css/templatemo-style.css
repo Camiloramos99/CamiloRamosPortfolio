@@ -418,6 +418,21 @@ button:hover {
     margin-top: 30px;
 }
 
+.left-text p {
+    text-align: justify;
+}
+
+.left-text h6 {
+    font-weight: bold;
+    color: #F0E68C
+}
+
+.highlight {
+    background-color: #007acc;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
 
 /* Services */
 
