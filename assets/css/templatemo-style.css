@@ -645,6 +645,13 @@ figure.snip1321 h4 {
     display: inline-block;
     font-size: 12px;
 }
+#tag-html {
+    background-color: rgba(255, 166, 0, 0.71); 
+}
+
+#tag-css {
+    background-color: rgba(38, 77, 228, 0.5); 
+}
 
 #tag-react {
     background-color: rgba(97, 218, 251, 0.7); 
