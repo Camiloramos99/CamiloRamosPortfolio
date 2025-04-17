@@ -459,6 +459,8 @@ button:hover {
   }
 
  .col-md-3 {
+    display: flex;
+    justify-content: center;
     padding-left: 0%;
 } 
 
@@ -526,7 +528,14 @@ button:hover {
 .custom-tooltip .tooltip-text-trello {
     background-color: #0079bfcd;
 }
-
+.tech-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
 
 
 
