@@ -674,6 +674,10 @@ figure.snip1321 h4 {
     background-color: rgba(247, 222, 30, 0.8);      
 }
 
+#tag-Bootstrap {
+    background-color: rgba(87, 35, 100, 0.643);      
+}
+
 .project-description {
     font-size: 14px;
     font-style: italic;
