@@ -766,7 +766,12 @@ section.contact-me {
     width: 60%;
     justify-self: center;
 }
-
+.row-form {
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+}
 #form input {
     background-color: rgba(250,250,250,0.1);
     border: 1px solid rgba(250,250,250,1);
