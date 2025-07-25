@@ -956,3 +956,47 @@ section.contact-me {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 575px) { 
+/* My Work Section */
+    .isotope-toolbar {
+        flex-wrap: wrap;
+    }
+    .isotope-toolbar span {
+        margin-right: 6px;
+        font-size: 14px;
+    }
+    figure.snip1321 figcaption {
+        left: 10px;
+        right: 10px;
+    }
+    figure.snip1321:after {
+        top: 15px;
+        left: 5px;
+        right: 5px;
+        bottom: 15px;
+    }
+    figure.snip1321 h4 {
+        margin-top: 2px;
+        margin-bottom: 10px;
+        color: #232323;
+    }
+    .tag {
+        padding: 5px 10px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .project-description {
+        margin-top: 7px;
+        line-height: normal;
+    }
+    figure.snip1321 .github-button {
+        font-size: 14px;
+        width: 45%;
+        height: 35px;
+        line-height: 35px;
+    }
+    figure.snip1321 figcaption {
+        min-height: 80%;
+    }
+}
