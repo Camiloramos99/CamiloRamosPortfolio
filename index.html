@@ -43,15 +43,15 @@ https://templatemo.com/tm-531-reflux
             </div>
             <div class="author-content">
               <h4>Camilo Ramos</h4>
-              <span>Web Designer</span>              
-              <a href="assets\docs\CamiloRamosDeveloperCV2025.pdf" target="_blank" class="cv-button">My CV</a>
+              <span data-key="profession"></span>              
+              <a href="assets\docs\CamiloRamosDeveloperCV2025.pdf" target="_blank" class="cv-button" data-key="cvButtonTitle"></a>
             </div>
             <nav class="main-nav" role="navigation">
               <ul class="main-menu">
-                <li><a href="#section1">About Me</a></li>
-                <li><a href="#section2">Technology Stack</a></li>
-                <li><a href="#section3">My Work</a></li>
-                <li><a href="#section4">Contact Me</a></li>
+                <li><a href="#section1" data-key="aboutMeTitle"></a></li>
+                <li><a href="#section2" data-key="technologyStackTitle"></a></li>
+                <li><a href="#section3" data-key="myWorkTitle"></a></li>
+                <li><a href="#section4" data-key="contactMeTitle"></a></li>
               </ul>
             </nav>
             <div class="social-network">
@@ -78,15 +78,18 @@ https://templatemo.com/tm-531-reflux
 
       <section class="section about-me" data-section="section1">
         <div class="container">
+          <div class="multilingual-buttons-container">
+            <button 
+              class="spanish-button"
+              onclick="setLanguage('es')">Español</button>
+            <button 
+              class="english-button"
+              onclick="setLanguage('en')">English</button>
+          </div>
           <div class="section-heading">
-            <h2>About Me</h2>
+            <h2 data-key="aboutMeTitle"></h2>
             <div class="line-dec"></div>
-            <span
-              >Hello, Hello! I'm a 25-year-old Colombian programmer currently based in Buenos Aires. 
-              I’ve been passionate about programming since 2022, and I enjoy creating useful solutions 
-              that drive project success. I’m always driven by curiosity and seek to make a 
-              positive impact with every challenge.
-            </span>
+            <span data-key="paragraphMboutMe"></span>
           </div>
           <div class="left-image-post">
             <div class="row">
@@ -97,13 +100,8 @@ https://templatemo.com/tm-531-reflux
               </div>
               <div class="col-md-6">
                 <div class="right-text" id="my-coding-journey">
-                  <h4>My Coding Journey</h4>
-                  <p>
-                    I started programming to combine my interest in technology with creating practical solutions. 
-                    Learning on my own wasn’t easy, but persistence taught me that challenges are part of the process. 
-                    A key moment was when I worked on an online store project and chose to research and experiment independently. 
-                    Since then, I've embraced this method—think, research, structure, and apply—which has deeply enriched my work.
-                  </p>
+                  <h4 data-key="myCodingJourneyTitle"></h4>
+                  <p data-key="myCodingJourneyParagraph"></p>
                 </div>
               </div>
             </div>
@@ -112,14 +110,9 @@ https://templatemo.com/tm-531-reflux
             <div class="row">
               <div class="col-md-6">
                 <div class="left-text">
-                  <h4>Current Projects</h4>
-                  <h6>FollowUp: Your Personal Organization Assistant</h6>
-                  <p>
-                    A work-in-progress project that combines a GitHub-style commit tracker for habits and an expense organizer into a 
-                    single platform. It will also include a to-do list, which is another project showcased in this portfolio. Designed 
-                    to simplify time management and enhance productivity. <br> I'm also learning <span class="highlight">TypeScript</span> 
-                    to achieve better and more efficient code across all my projects.
-                  </p>
+                  <h4 data-key="currentProjectsTitle"></h4>
+                  <h6 data-key="currentProjectsSubtitle"></h6>
+                  <p data-key="CurrentProjectsText"></p>
                   <!-- <div class="white-button">
                     <a href="#">Read More</a>
                   </div> -->
@@ -140,7 +133,7 @@ https://templatemo.com/tm-531-reflux
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
-            <h2>Technology Stack</h2>
+            <h2 data-key="technologyStackTitle"></h2>
             <div class="line-dec"></div>
           </div>
 
@@ -216,7 +209,7 @@ https://templatemo.com/tm-531-reflux
       <section class="section my-work" data-section="section3">
         <div class="container">
           <div class="section-heading">
-            <h2>My Work</h2>
+            <h2 data-key="myWorkTitle"></h2>
             <div class="line-dec"></div>
           </div>
           <div class="row">
@@ -271,16 +264,14 @@ https://templatemo.com/tm-531-reflux
                         <span class="tag" id="tag-tailwind">TailwindCSS</span>
                         <span class="tag" id="tag-javascript">JavaScript</span>
                       </div>
-                      <p class="project-description">
-                        A robust and scalable e-commerce features sign-up, log-in, shopping cart, order checkout, and a search bar, providing a seamless user experience.
+                      <p class="project-description" data-key="projectDescriptionOne">
                         <a href="https://bestbuymarket.netlify.app/" target="_blank">website</a>
                       </p>    
                       <a
                         href="https://github.com/Camiloramos99/BestBuyMarket" 
                         target="_blank" 
                         class="github-button"
-                      >View Code
-                      <i class="fa fa-github"></i>
+                        data-key="ViewCodeButton">
                       </a>              
                     </figcaption>
                   </figure>
@@ -299,15 +290,14 @@ https://templatemo.com/tm-531-reflux
                         <span class="tag" id="tag-css">CSS</span>
                         <span class="tag" id="tag-javascript">JavaScript</span>
                       </div>
-                      <p class="project-description">
-                        Lets users browse the catalog, view detailed product information, add products to the cart, and more features for a delightful experience.                        <a href="https://amandiva-e-commerce.vercel.app/" target="_blank" >website</a>
+                      <p class="project-description" data-key="projectDescriptionTwo">
+                        <a href="https://amandiva-e-commerce.vercel.app/" target="_blank" >website</a>
                       </p>  
                       <a
                         href="https://github.com/Camiloramos99/AmandivaECommerce" 
                         target="_blank" 
                         class="github-button"
-                      >View Code
-                      <i class="fa fa-github"></i>
+                        data-key="ViewCodeButton">
                       </a>                
                     </figcaption>
                   </figure>
@@ -326,17 +316,15 @@ https://templatemo.com/tm-531-reflux
                         <span class="tag" id="tag-css">CSS</span>
                         <span class="tag" id="tag-Bootstrap">Bootstrap</span>
                       </div>
-                      <p class="project-description">
-                        Elegant portfolio landing designed to reflect the photographer’s unique style and earn client trust—crafted with attention to every detail.
+                      <p class="project-description" data-key="projectDescriptionThree">
                         <a href="https://photographylanding-demo2.netlify.app/" target="_blank">website</a>
                       </p>    
                       <a
                       href="https://github.com/Camiloramos99/PhotographyLanding-Demo2"
                       target="_blank"
                       class="github-button"
-                      >View Code
-                      <i class="fa fa-github"></i
-                    ></a>                
+                      data-key="ViewCodeButton">
+                      </a>                
                     </figcaption>
                   </figure>
                 </div>
@@ -434,13 +422,9 @@ https://templatemo.com/tm-531-reflux
       <section class="section contact-me" data-section="section4">
         <div class="container-contact">
           <div class="section-heading">
-            <h2>Contact Me</h2>
+            <h2 data-key="contactMeTitle"></h2>
             <div class="line-dec"></div>
-            <span
-              >Contact Me
-              If you have a project in mind or want to collaborate, I am always open to new
-              ideas and would love to hear from you. I will respond promptly your message.
-            </span
+            <span data-key="contactMeDescription"></span
             >
           </div>
           <div class="row row-form">
@@ -498,9 +482,7 @@ https://templatemo.com/tm-531-reflux
                     </div>
                     <div class="col-md-12">
                       <fieldset>
-                        <button type="submit" id="form-submit-button" class="button">
-                          Send Message
-                        </button>
+                        <button type="submit" id="form-submit-button" class="button" data-key="sendMessageButton"></button>
                       </fieldset>
                     </div>
                   </div>

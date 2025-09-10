@@ -29,6 +29,12 @@ body {
     width: 100%;
 }
 
+.multilingual-buttons-container {
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+
 
 /* Basic */
 
