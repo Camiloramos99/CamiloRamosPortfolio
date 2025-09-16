@@ -107,9 +107,10 @@
       technologyStackTitle: "Technology Stack",
       myWorkTitle: "My Work",
       contactMeTitle: "Contact Me",
-      paragraphMboutMe: "Hello, Hello! I'm a 25-year-old Colombian web programmer currently based in Buenos Aires. I’ve been passionate about programming since 2022, and I enjoy creating useful solutions that drive project success. I am always driven by curiosity and seek to make a positive impact with every challenge.",
+      paragraphMboutMe: "Hi! I'm Camilo, a Colombian front-end developer based in Buenos Aires. I enjoy creating clear, functional interfaces with attention to detail and purpose. Programming allows me to solve problems with elegance and deliver real value.",
       myCodingJourneyTitle: "My Coding Journey",
-      myCodingJourneyParagraph: "I started programming to combine my interest in technology with creating practical solutions. Learning on my own wasn’t easy, but persistence taught me that challenges are part of the process. A key moment was when I worked on an online store project and chose to research and experiment independently. Since then, I've embraced this method—think, research, structure, and apply—which has deeply enriched my work",
+      myCodingJourneyParagraph: `I started programming in 2022 through courses at Alura, Argentina Programa, and Platzi. My first major project was the e-commerce Amandiva, followed by other practice projects. Later, I developed Best Buy Market and a responsive landing page for a professional photographer.
+                                 <br> I’m still learning and looking for new job opportunities to apply my knowledge.`,
       currentProjectsTitle: "Current Projects",
       currentProjectsSubtitle: "FollowUp: Your Personal Organization Assistant",
       CurrentProjectsText: `A work-in-progress project that combines a GitHub-style commit tracker for habits and an expense organizer into a single platform. It will also include a to-do list, which is another project showcased in this portfolio. Designed to simplify time management and enhance productivity. 
@@ -129,9 +130,10 @@
       technologyStackTitle: "Stack Tecnológico",
       myWorkTitle: "Mi Trabajo",
       contactMeTitle: "Contacto",
-      paragraphMboutMe: "¡Hola! Soy un programador web de 25 años nacido en Colombia, actualmente radicado en Buenos Aires. Desde 2022 descubrí mi pasión por la programación, y desde entonces disfruto creando soluciones útiles que impulsan el éxito de los proyectos. La curiosidad me mueve constantemente, y en cada desafío busco generar un impacto positivo.",
-      myCodingJourneyTitle: "Mi Camino Como Programador",
-      myCodingJourneyParagraph: "Comencé a programar para combinar mi interés por la tecnología con la creación de soluciones prácticas. Aprender por mi cuenta no fue fácil, pero la perseverancia me enseñó que los desafíos son parte del proceso. Un momento clave fue cuando trabajé en un proyecto de tienda online y decidí investigar y experimentar de forma independiente. Desde entonces, adopté un método que ha enriquecido profundamente mi trabajo: pensar, investigar, estructurar y aplicar.",
+      paragraphMboutMe: "¡Hola! Soy Camilo, desarrollador front-end colombiano radicado en Buenos Aires. Me gusta crear interfaces claras y funcionales, con atención al detalle y propósito. Programar me permite resolver con elegancia y aportar valor real.",
+      myCodingJourneyTitle: "Mi Camino Como Dev",
+      myCodingJourneyParagraph: `Empecé a programar en 2022 con cursos en Alura, Argentina Programa y Platzi. Mi primer gran proyecto fue el e-commerce Amandiva, seguido de otros trabajos de práctica. Después desarrollé Best Buy Market y una landing page responsiva para un fotógrafo profesional.
+                                <br> Hoy sigo aprendiendo y busco nuevas oportunidades laborales para aplicar mis conocimientos.`,
       currentProjectsTitle: "Proyectos En Curso",
       currentProjectsSubtitle: "FollowUp: tu asistente personal de organización",
       CurrentProjectsText: `Proyecto en desarrollo que integra un sistema de seguimiento de hábitos inspirado en los commits de GitHub con un organizador de gastos, todo en una misma plataforma. También incluirá una lista de tareas, basada en otro proyecto que forma parte de este portfolio. Está diseñado para simplificar la gestión del tiempo y potenciar la productividad. 
@@ -146,9 +148,6 @@
     }
   };
 
-
-
-
 function setLanguage(lang) {
   const elements = document.querySelectorAll("[data-key]");
   elements.forEach(el => {
@@ -156,7 +155,6 @@ function setLanguage(lang) {
     el.innerHTML = translations[lang] [key];
   });
 }
-
 
 window.onload = () => {
   setLanguage("en");
