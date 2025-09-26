@@ -115,10 +115,10 @@
       currentProjectsSubtitle: "FollowUp: Your Personal Organization Assistant",
       CurrentProjectsText: `A work-in-progress project that combines a GitHub-style commit tracker for habits and an expense organizer into a single platform. It will also include a to-do list, which is another project showcased in this portfolio. Designed to simplify time management and enhance productivity. 
                             <br> I'm also learning <span class="highlight">TypeScript</span> to achieve better and more efficient code across all my projects.`,
-      projectDescriptionOne: `A robust and scalable e-commerce features sign-up, log-in, shopping cart, order checkout, and a search bar, providing a seamless user experience. <a href="https://bestbuymarket.netlify.app/" target="_blank">website</a>`,
-      projectDescriptionTwo: `Lets users browse the catalog, view detailed product information, add products to the cart, and more features for a delightful experience. <a href="https://amandiva-e-commerce.vercel.app/" target="_blank" >website</a>`,
-      projectDescriptionThree: `Elegant portfolio landing designed to reflect the photographer’s unique style and earn client trust—crafted with attention to every detail. <a href="https://photographylanding-demo2.netlify.app/" target="_blank">website</a>`,
-      ViewCodeButton: `View Code <i class="fa fa-github"></i>`,
+      projectDescriptionOne: `A robust and scalable e-commerce features sign-up, log-in, shopping cart, order checkout, and a search bar, providing a seamless user experience.`,
+      projectDescriptionTwo: `Lets users browse the catalog, view detailed product information, add products to the cart, and more features for a delightful experience.`,
+      projectDescriptionThree: `Elegant portfolio landing designed to reflect the photographer’s unique style and earn client trust—crafted with attention to every detail.`,
+      ViewProjectButton: `See project <i class="fa fa-eye"></i>`,
       contactMeDescription: "Contact Me If you have a project in mind or want to collaborate, i am always open to new ideas and would love to hear from you. I will respond promptly your message.",
       sendMessageButton: "Send Message"
 
@@ -138,10 +138,10 @@
       currentProjectsSubtitle: "FollowUp: tu asistente personal de organización",
       CurrentProjectsText: `Proyecto en desarrollo que integra un sistema de seguimiento de hábitos inspirado en los commits de GitHub con un organizador de gastos, todo en una misma plataforma. También incluirá una lista de tareas, basada en otro proyecto que forma parte de este portfolio. Está diseñado para simplificar la gestión del tiempo y potenciar la productividad. 
                             <br>Actualmente estoy aprendiendo <span class="highlight">TypeScript</span> para lograr un código más eficiente y escalable en todos mis proyectos.`,
-      projectDescriptionOne: `E-commerce escalable con login, registro, barra de búsqueda, carrito de compras y resumen de orden, enfocado en fluidez y eficiencia. <a href="https://bestbuymarket.netlify.app/" target="_blank">Sitio Web</a>`,
-      projectDescriptionTwo: `Cuenta con un catálogo, vista detallada de cada producto, carrito de compras y mas funciones para una experiencia intuitiva y agradable. <a href="https://amandiva-e-commerce.vercel.app/" target="_blank" >Sitio Web</a>`,
-      projectDescriptionThree: `portfolio elegante, diseñado para reflejar el estilo único del fotógrafo y generar confianza en sus clientes, fué creado con atención minuciosa a cada detalle. <a href="https://photographylanding-demo2.netlify.app/" target="_blank">Sitio Web</a>`,
-      ViewCodeButton: `Código <i class="fa fa-github"></i>`,
+      projectDescriptionOne: `E-commerce escalable con login, registro, barra de búsqueda, carrito de compras y resumen de orden, enfocado en fluidez y eficiencia.`,
+      projectDescriptionTwo: `Cuenta con un catálogo, vista detallada de cada producto, carrito de compras y mas funciones para una experiencia intuitiva y agradable.`,
+      projectDescriptionThree: `portfolio elegante, diseñado para reflejar el estilo único del fotógrafo y generar confianza en sus clientes, fué creado con atención minuciosa a cada detalle.`,
+      ViewProjectButton: `Ver proyecto <i class="fa fa-eye"></i>`,
       contactMeDescription: "Contáctame Si tienes un proyecto en mente o quieres colaborar, estoy abierto a nuevas ideas y me encantaria escucharte. Responderé tu mensaje con la mayor prontitud posible.",
       sendMessageButton: "Enviar Mensaje"
 
